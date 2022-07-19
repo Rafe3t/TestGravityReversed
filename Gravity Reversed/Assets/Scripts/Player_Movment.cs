@@ -15,8 +15,10 @@ public class Player_Movment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if(Input.GetKey("a"))
         {
+
             anim.SetBool("Running", true);
         }
         else
