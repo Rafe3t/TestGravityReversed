@@ -95,7 +95,127 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  mosaicSpriteImportData: []
+  mosaicSpriteImportData:
+  - name: left_hand_color
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 385
+      width: 44
+      height: 79
+    spriteID: 379016a6f7c772a4b9bfa615b3b96349
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -145, y: 224}
+  - name: right_hand_color
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 158
+      width: 44
+      height: 79
+    spriteID: f022bc1b94b6b6341b124bb83876713b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -106, y: 1}
+  - name: Head_color
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 156
+      height: 146
+    spriteID: 97cbdd58f123c3545bb66ed56150dd62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -99, y: -221}
+  - name: Body_color
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 158
+      width: 93
+      height: 102
+    spriteID: 71e8d95160c18b441822f6b413433450
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -153, y: 11}
+  - name: Left_leg_color
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 4
+      width: 54
+      height: 109
+    spriteID: 42c4d159127a6844b84487059218f260
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 17, y: -64}
+  - name: Right_leg_color
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 268
+      width: 54
+      height: 109
+    spriteID: b2368b6e0ddbdf64095192d0790e539e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -190, y: 199}
   rigSpriteImportData:
   - name: left_hand_color
     originalName: 
@@ -2601,7 +2721,67 @@ ScriptedImporter:
     categories: []
   spritePackingTag: 
   resliceFromLayer: 0
-  mosaicPSDLayers: []
+  mosaicPSDLayers:
+  - name: left_hand_color
+    spriteName: left_hand_color
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 379016a6f7c772a4b9bfa615b3b96349
+    layerID: 0
+    mosaicPosition: {x: 4, y: 385}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: right_hand_color
+    spriteName: right_hand_color
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f022bc1b94b6b6341b124bb83876713b
+    layerID: 1895788524
+    mosaicPosition: {x: 105, y: 158}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Head_color
+    spriteName: Head_color
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 97cbdd58f123c3545bb66ed56150dd62
+    layerID: -1426136144
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Body_color
+    spriteName: Body_color
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 71e8d95160c18b441822f6b413433450
+    layerID: 895910050
+    mosaicPosition: {x: 4, y: 158}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Left_leg_color
+    spriteName: Left_leg_color
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 42c4d159127a6844b84487059218f260
+    layerID: 941162516
+    mosaicPosition: {x: 168, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Right_leg_color
+    spriteName: Right_leg_color
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b2368b6e0ddbdf64095192d0790e539e
+    layerID: -1521381577
+    mosaicPosition: {x: 4, y: 268}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   rigPSDLayers:
   - name: left_hand_color
     spriteName: left_hand_color
